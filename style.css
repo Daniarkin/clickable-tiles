@@ -1,3 +1,7 @@
+.row {
+  display: flex;
+}
+
 button {
   display: block;
   width: 100px;

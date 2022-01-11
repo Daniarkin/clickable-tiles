@@ -5,8 +5,10 @@ fillTiles()
 
 onresize = fillTiles
 
+
+
 container.onmouseover = event => {
-  if (event.target === container) return
+  if (event.target === container || event.target.className === 'row') return
 
   event.target.style.background = getNextColor()
 }
